@@ -1,1 +1,1 @@
-# example
+# example site template
