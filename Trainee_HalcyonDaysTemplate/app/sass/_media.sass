@@ -1,0 +1,95 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.features-wraper
+		.col-md-4:not(:last-child)
+			.features-item
+				margin-bottom: 40px
+		p
+			margin-top: 40px
+	.icon
+		margin-bottom: 35px
+	.image-and-carousel
+		background: none
+		background-color: #f3f5f8
+		padding-bottom: 90px
+		min-height: auto
+		&::before
+			display: none
+	footer
+		text-align: center
+	.website
+		text-align: center
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.menu
+		right: 20px
+	footer
+		text-align: center
+	.website
+		text-align: center
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.menu
+		right: 10px
+	.header-composition
+		padding: 10px
+		h1
+			line-height: 1.1
+			font-size: 35px
+	footer
+		text-align: center
+	
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.image-and-carousel
+		padding-bottom: 50px
+	.subscribe
+		.inp
+			width: 100%
+		button
+			width: 100%
+			margin-top: 5px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
